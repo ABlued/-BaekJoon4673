@@ -16,12 +16,11 @@ public class Main {
 					break;
 				}
 			}
-			if(check == false) {
+			if(check == false) 
 				System.out.print(-1 + " ");
-			}
-			else {
+			else 
 				check = false;
-			}
+			
 		}
 	}
 }
