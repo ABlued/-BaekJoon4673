@@ -26,7 +26,6 @@ public class Main {
 		for(int i = M; i <= N; i++) {
 			if(number[i] ==  true) {
 				sum += i;
-				System.out.println(i);
 				if(checkFirst == true) {
 					firstNumber = i;
 					checkFirst = false;
